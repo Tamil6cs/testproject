@@ -27,13 +27,13 @@ public class Login_hrm {
 	}
 
 
-//	public void loginToOrangehrm(String strUserName,String strPasword) throws Exception{
-//		//Fill user name
-//		this.setUserName(strUserName);
-//		//Fill password
-//		this.setPassword(strPasword);
-//		//Click Login button
-//		this.clickLogin();
+	public void loginToOrangehrm(String strUserName,String strPasword) throws Exception{
+		//Fill user name
+		this.setUserName(strUserName);
+		//Fill password
+		this.setPassword(strPasword);
+		//Click Login button
+		this.clickLogin();
 
 
 	}
