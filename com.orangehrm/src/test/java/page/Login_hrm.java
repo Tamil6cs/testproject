@@ -4,9 +4,9 @@ import org.openqa.selenium.WebDriver;
 
 public class Login_hrm {
 	WebDriver driver;
-	By username = By.name("txtUsername");
-	By password = By.id("txtPassword");
-	By login = By.name("Submit");
+//	By username = By.name("txtUsername");
+//	By password = By.id("txtPassword");
+//	By login = By.name("Submit");
 
 	public Login_hrm(WebDriver driver){
 		this.driver = driver;
