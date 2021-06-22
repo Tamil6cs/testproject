@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="test.Verify_orangehrm_page">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="searchhrm_excel"/>
+        </methods>
+      </class> <!-- test.Verify_orangehrm_page -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
