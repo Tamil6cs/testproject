@@ -71,9 +71,9 @@ public class Verify_searchemp {
 			empname=sh.getRow(rowval).getCell(0).getStringCellValue();
 			empid=sh.getRow(rowval).getCell(1).getStringCellValue();
 			loginclick.loginToOrangehrm(empname,empid);
-			searchempname=sh.getRow(rowval).getCell(2).getStringCellValue();
-			searchempid=sh.getRow(rowval).getCell(3).getStringCellValue();
-			search.SearchEmployeeOrangehrm(searchempname,searchempid);
+//			searchempname=sh.getRow(rowval).getCell(2).getStringCellValue();
+//			searchempid=sh.getRow(rowval).getCell(3).getStringCellValue();
+//			search.SearchEmployeeOrangehrm(searchempname,searchempid);
 		}
 	}
 }
