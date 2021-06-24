@@ -68,10 +68,10 @@ public class Verify_login {
 			Thread.sleep(2000);
 		}
 	}
-	@AfterTest
-	public void close_browser() {
-		driver.close();
-	}
+	//@AfterTest
+//	public void close_browser() {
+//		driver.close();
+	//}
 	}
 	
 
